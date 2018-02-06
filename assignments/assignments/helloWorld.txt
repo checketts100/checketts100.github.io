@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-Hello World Link
-
-https://github.com/Checketts10/test-webpages/blob/master/helloWorld.html
-=======
-Hello World Link
-
-https://github.com/Checketts10/test-webpages/blob/master/helloWorld.html
->>>>>>> 59590c03425f0a18e65248477d31a393fa190c5c
