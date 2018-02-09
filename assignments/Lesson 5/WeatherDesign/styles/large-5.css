@@ -4,7 +4,7 @@
   article p.town-article img { width: 29.333%; }
 } 
 
-nav {
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -31,5 +31,5 @@ nav {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
-}}  
+}
 
