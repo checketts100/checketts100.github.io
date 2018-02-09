@@ -5,6 +5,8 @@
 body {
   font-size: 16px;
   /* Declare the base font-family - from google font api or other */
+  font-family:Robot Slab, sans-serif;
+  
 }
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
