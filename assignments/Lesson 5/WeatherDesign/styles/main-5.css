@@ -1,5 +1,23 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
+@media only screen and (max-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav button { display:none; }  /* hamburger button does not need to be shown */
+  
+  section.forecast { display: none; }  /* show the 10-day forecast with the medium view and up */
+  
+  article p.town-article img { width: 25%; float:left; }  /* responsive images */
+
+  footer {width: 25%; float:left;}
+  
+  .logo{width: 5em; height:auto; margin: 0}
+  img { width: 30%; height: auto; margin: 0;
+	  
+  }
+}
+
+
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
@@ -34,8 +52,9 @@ main figure img { width: 100%; }
 section {}
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
-  margin: ???;
+  width: 33%; /* fill the page in the small/phone view */
+  height: auto;
+  argin: ???;
 }
 
 footer {}
