@@ -9,12 +9,12 @@
   
   article p.town-article img { width: 25%; float:left; }  /* responsive images */
 
-  footer {width: 25%; float:left;}
+  footer {width: 25%; float:center;}
   
-  .logo{width: 5em; height:auto; margin: 0}
-  img { width: 30%; height: auto; margin: 0;
-	  
-  }
+  img { width: 30%; height: auto; margin: 0}
+  .logo{width: 5em; height:auto; margin: 0; float: left}
+  .dailytemp{ width: 10%; height:auto; margin: 1em}
+  
 }
 
 
