@@ -1,0 +1,43 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+  
+  article p.town-article img { width: 29.333%; }
+    
+	img{width: 30em; height: auto; margin: 0}
+	
+	.logo{width: 5em; height:auto; margin: 0}
+} 
+body {
+	
+	font-family:Robot Slab, sans-serif;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar - Color of font*/
+.topnav a {
+    float: left;
+    color: #7FFFD4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #00FFFF;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #FFF8DC;
+    color: black;
+}
