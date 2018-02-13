@@ -57,8 +57,8 @@ article p.town-article img {  /* This structure refers to img elements that are 
   argin: ???;
 }
 
-footer {}
-footer aside {}
+footer {font-size: 6px;}
+footer aside {font-size: 8px;}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
