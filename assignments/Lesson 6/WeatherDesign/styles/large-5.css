@@ -16,12 +16,28 @@
     margin-right: auto;
     width: 50%;
 }
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
 
 body {
 	font-family:"Robot Slab, sans-serif";
 }
 
-
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {

@@ -20,6 +20,13 @@
     width: 50%;
 }
 
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
 body {
 	font-family:"Robot Slab, sans-seri";
 	} 

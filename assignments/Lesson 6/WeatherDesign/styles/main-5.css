@@ -9,7 +9,7 @@
   
   article p.town-article img { width: 25%; float:left; }  /* responsive images */
 
-  footer {width: 25%; float:left;}
+  footer {width: 25%;}
   
   img { width: 30%; height: auto; margin: 0}
 
@@ -62,6 +62,13 @@ article p.town-article img {  /* This structure refers to img elements that are 
   width: 33%; /* fill the page in the small/phone view */
   height: auto;
   margin: 0;
+}
+/* forcing an image not to collapse*/
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
 }
 
 footer {font-size: 6px;}

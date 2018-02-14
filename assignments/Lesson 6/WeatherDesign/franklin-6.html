@@ -45,7 +45,7 @@
   </header>
 
   <!-- site navigation use placeholder references -->
-  <nav>
+  <nav class="clearfix">
     <button onclick="toggleNavMenu()">&#9776;</button>
     
 		<div class="topnav">
@@ -58,8 +58,13 @@
 			
   </nav>
   
-	<figure class="center"
-		<img src="images/franklin-original-cropped.jpg" alt="The Franklin Forecast Picture" sizes="50vw"
+
+	
+ 
+ <main class="clearfix">
+ 
+ 	<figure class="center"
+		<img src="images/franklin-original.jpg" alt="The Franklin Forecast Picture" sizes="50vw"
 			srcset="images/franklin-small.jpg 200w,
 					images/franklin-medium.jpg 500w,
 					images/franklin-large.jpg 800w,
@@ -69,8 +74,7 @@
 		<figcaption> The pituresque Franklin City<figcaption>
 	</figure>
 	
- 
- <main>
+	
     <h2>The City of Franklin</h2>
    
     <section>
@@ -91,6 +95,8 @@
         <p>Wind Speed: <b>5 mph SE</b></p>  
       </div>           
     </section>
+	
+	<hr>
         
     <section class="forecast">
       <h3>10 Day Forecast</h3>
@@ -125,15 +131,16 @@
 		</tbody>
       </table>
     </section>
+	<hr>
       
     <article>
 	<div style="padding-left:24px">
-      <h3>Franklin Breaks Record</h3>	
+      <h3>Franklin Breaks Record <br> City Article: Franklin attracts visitors for annual <i>Kissing Tree Convention</i></h3>	
       <p class="town-article">
         <img src="images/FranklinCity.jpg" class="img-rounded" alt="Picturesque view of Franklin City">
         
 		<!-- short article content placeholder-->
-			<h3>City Article: Franklin attracts visitors for annual <i>Kissing Tree Convention</i></h3>
+			
 			<!--image of kissing tree convention-->
 			<img src="images/treeWithSign.jpg" class="img-rounded" alt="Tree with 'Kissing Tree' sign" >
 			<img src="images/kissing.jpg" class="img-rounded" alt="Picture of kissing" >
@@ -150,15 +157,18 @@
 			123 Main St. <br>
 			Franklin, MU 83454 <br>
 			(999) 999-9999 <br>
-			franklinforcast@ff.com	
+			franklinforecast@ff.com	
 			</p>
     </aside>
+	
 		<p class="footer-bar" style="text-align:center ; font-size:10px">
-		&copy;2018 All Rights Reserved | The Franklin Forecast | <span id="currentdate">Current Date Placeholder</span></p>
+		&copy;2018 All Rights Reserved | The Franklin Forecast | <span id="currentdate">Current Date Placeholder "displayDate"</span></p>
+  
   </footer>
 
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
+	  
 
 </body>
 </html>
