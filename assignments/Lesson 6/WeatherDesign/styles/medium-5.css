@@ -3,21 +3,26 @@
   
   nav button { display:none; }  /* hamburger button does not need to be shown */
   
-  section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
+  section.forecast { display: inline; }  /* show the 10-day forecast with the medium view and up */
   
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
   img{width: 20em; height: auto; margin: 0}
+  
   .logo{width: 5em; height:auto; margin: 0; float: left}
   .dailytemp{ width: 10%; height:auto; margin:  1em}
-
-  
-  }
+   
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 body {
-	
-	font-family:Robot Slab, sans-serif;
-} 
+	font-family:"Robot Slab, sans-seri";
+	} 
 
 /* Add a black background color to the top navigation */
 .topnav {

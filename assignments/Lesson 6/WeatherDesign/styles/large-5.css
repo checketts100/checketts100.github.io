@@ -6,11 +6,19 @@
 	img{width: 30em; height: auto; margin: 0}
 	
 	.logo{width: 5em; height:auto; margin: 0; float: left}
+	
 	.dailytemp{ width: 10%; height:auto; margin: 1em}
 } 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 body {
-	
-	font-family:Robot Slab, sans-serif;
+	font-family:"Robot Slab, sans-serif";
 }
 
 

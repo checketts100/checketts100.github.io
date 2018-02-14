@@ -9,12 +9,20 @@
   
   article p.town-article img { width: 25%; float:left; }  /* responsive images */
 
-  footer {width: 25%; float:center;}
+  footer {width: 25%; float:left;}
   
   img { width: 30%; height: auto; margin: 0}
+
   .logo{width: 5em; height:auto; margin: 0; float: left}
   .dailytemp{ width: 10%; height:auto; margin: 1em}
   
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
@@ -23,9 +31,8 @@
 body {
   font-size: 16px;
   /* Declare the base font-family - from google font api or other */
-  font-family:Robot Slab, sans-serif;
-  
-}
+  font-family:"Robot Slab, sans-serif";
+  }
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
@@ -54,7 +61,7 @@ section {}
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 33%; /* fill the page in the small/phone view */
   height: auto;
-  argin: ???;
+  margin: 0;
 }
 
 footer {font-size: 6px;}
