@@ -58,3 +58,7 @@ body {
     background-color: #4CAF50;
     color: white;
 }
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}

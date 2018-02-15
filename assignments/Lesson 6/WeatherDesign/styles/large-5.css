@@ -27,17 +27,19 @@ body {
 	font-family:"Robot Slab, sans-serif";
 }
 
-table {
+.table {
     display: table;
     border-collapse: separate;
     border-spacing: 2px;
-    border-color: grey;
+    border-color: black;
 }
-tr {
-    display: table-row;
+.tr {
+   display: table-row;
     vertical-align: inherit;
-    border-color: inherit;
+    border-color: black;
 }
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -65,4 +67,8 @@ tr {
 .topnav a.active {
     background-color: #FFF8DC;
     color: black;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
 }
