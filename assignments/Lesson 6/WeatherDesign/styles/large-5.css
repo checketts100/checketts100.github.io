@@ -10,17 +10,6 @@
 	.dailytemp{ width: 10%; height:auto; margin: 1em}
 } 
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.clearfix:after{
-	content: "";
-	display: table;
-	clear: both;
-}
 
 
 body {
@@ -40,6 +29,7 @@ body {
 }
 
 
+/*NAVIGATION BAR*/
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -68,7 +58,5 @@ body {
     background-color: #FFF8DC;
     color: black;
 }
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
+
 }

@@ -2,8 +2,8 @@
 
 @media only screen and (max-width: 37.5em) {
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
-  
-  nav button { display:none; }  /* hamburger button does not need to be shown */
+ 
+ nav button { display:none; }   hamburger button does not need to be shown 
   
   section.forecast { display: none; }  /* show the 10-day forecast with the medium view and up */
   
@@ -18,12 +18,19 @@
   
 }
 
+/*PREVENTING PICTURES FROM OVERLAPPING*/
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
 
 
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
@@ -45,10 +52,9 @@ header .subheading {}
 
 nav {}
 nav button {}
-nav ul {}
-nav ul li {}
+nav ul {}nav ul li {}
 nav ul li a {}
-nav ul li.active a {}
+nav ul li.active a 
 nav ul li a:hover {}
 
 main {}
@@ -106,4 +112,5 @@ footer>p {} /* This structure refers to p elements that are direct children of t
     float: none;
     display: block;
     text-align: left;
-	}
+  }
+}
