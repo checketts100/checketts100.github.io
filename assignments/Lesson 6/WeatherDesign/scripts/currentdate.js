@@ -7,8 +7,7 @@ var theMonths = ["January", "February", "March", "April", "May", "June", "July",
 var d = new Date();
 var dayName = theDays[d.getDay()];
 var day = d.getDate();
-var monthName = theMonth[d.getMonth()];
-var year = d.getFullYear()];
+var monthName = theMonths[d.getMonth()];
+var year = [d.getFullYear()];
 
 document.getElementById("demoDate").innerHTML = "dayName" + ", " + day + " " + monthName + " " + year;
-
