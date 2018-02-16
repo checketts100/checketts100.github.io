@@ -1,19 +1,18 @@
 /*CSS MULTIPLE BACKGROUND - STUDENT PRESENTATION*/
 
 /*THIS IS THE LONG HAND VERSION*/
-/*
 body {
-	background-image:url("../images/umbrella.jpg"), url("../images/moreumbrellas.jpg"),url("../images/background2.jpg");
+	background-image:url("../images/umbrella.jpg"), url("../images/moreumbrellas.jpg"),url("../images/background2.jpg"),#D3D3D3;
 	background-repeat: repeat-x, repeat-y, repeat;
 	background-position: right top, righ top, center;
 	margin:0;
 }
-*/
-/*THIS IS THE SHORT HAND VERSION*/
-body {background:url("../images/umbrella.jpg") left top repeat-x  ,url("../images/moreumbrellas.jpg") left top repeat-y , url("../images/background2.jpg")center repeat ;
-	
-}
 
+/*THIS IS THE SHORT HAND VERSION*/
+/*
+body {background:url("../images/umbrella.jpg") left top repeat-x  ,url("../images/moreumbrellas.jpg") left top repeat-y , url("../images/background2.jpg")center repeat ;
+	}
+*/
 
 body { 
     font-size: 1.5vw; 
