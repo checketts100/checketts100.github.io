@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Franklin Forecast: Local Weather and Information</title>
+  <meta name="Adam Checketts" content="Adam Checketts">
+  <meta name="The Franklin Forecast: local weather" content="This page contains the local weather for Franklin City and the surrounding cities">
+ 
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+ body {background-color:rgba(95,158,160,.20);}
+</style>
+
+  <!-- external style references in the proper cascading order -->    
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">  <!-- Google API font reference -->
+	<link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+	<link href="styles/main-5.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+	<link href="styles/medium-5.css" rel="stylesheet">  <!-- medium/tablet views -->
+	<link href="styles/large-5.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+</head>
+
+
+<body>
+
+    <img src="images/sunny.png" alt="The Franklin Forecast Logo" class="logo">
+
+<header>
+	
+		<div style="padding-left:24px">
+		<h1>The Franklin Forecast</h1></div>
+		<div class="subheading">The Brighter Side of Life</div>
+		<br>
+		
+</header>
+		
+		
+  <!-- site navigation use placeholder references -->
+<nav class="clearfix">
+   <!-- <button class="hamburger"></button>-->
+  
+      <button onclick="toggleNavMenu()"class="hamburger">&#9776;</button>
+    		<div class="topnav" id="myTopnav">
+		<a class="active" href="Franklin">Franklin</a>
+		<a href="#Greenville">Greenville</a>
+		<a href="#Springfield">Springfield</a>
+		<a href="#StormCenter">Storm Center</a>
+		<a href="#Gallery">Gallery</a>
+		</div>
+			
+</nav>
+  
+ 
+ <main class="clearfix">
+ 
+ 	<figure class="center">
+		<img src="images/franklin-oginal.jpg" alt="The Franklin Forecast Picture"  
+			srcset="images/franklin-small.jpg 200w,
+					images/franklin-medium.jpg 500w,
+					images/franklin-large.jpg 800w,
+					images/franklin-original-cropped.jpg 1100w
+					"
+					>  
+		<figcaption> The picturesque Franklin City</figcaption>
+	</figure>
+	
+	
+    <h2>The City of Franklin</h2>
+   
+    <section>
+      <h3>Weather Summary</h3>    
+      <div class="highlow">
+        <p>High: <b>76&deg;F</b></p>  
+        <p>Low:<b>69&deg;F</b></p>  
+      </div>
+      <div class="current">
+        Sunny, with clouds <br>
+        <picture>
+               <img src="images/sunny-weather.png" class="dailytemp" alt="Sunny Weather picture">
+        </picture>
+      </div> 
+	  
+      <div class="conditions">
+        <p>Precipitation: <b>10%</b></p>  
+        <p>Wind Speed: <b>5 mph SE</b></p>  
+      </div>           
+    </section>
+	
+	<hr>
+        
+    <section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <table>
+	    <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+		</thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+		</tbody>
+      </table>
+    </section>
+	<hr>
+      
+    <article>
+	<div style="padding-left:24px">
+      <h3><strong> City Article: </strong><br>Franklin attracts visitors for annual <i>Kissing Tree Convention</i></h3>	
+      <p class="town-article">
+               
+		<!-- short article content placeholder-->
+			
+			<!--image of kissing tree convention-->
+			<img src="images/kissing.jpg" class="img-rounded" alt="Picture of kissing" >
+			<img src="images/treeWithSign.jpg" class="img-rounded" alt="Tree with 'Kissing Tree' sign" >
+      </p>
+	  <br>
+	  
+	  <h4>Kissing Tree - The Spencer Lee Band</h4>
+	  <p>
+	  
+		[Chorus]<br>
+		Girl, just come with me<br>
+		Feel your fantasy<br>
+		I want to see you underneath this old kissing tree<br>
+		Hold my hand, sweet love<br>
+		Bless the stars above<br>
+		I want to see you underneath this old kissing tree<br>
+		<br>
+		[Verse 1]<br>
+		Hey, pretty lady<br>
+		You better tell your friend<br>
+		That you'll be my baby<br>
+		Until the very end<br>
+		You know you got that formula<br>
+		You know you got that drug<br>
+		Know you got that kinda thing<br>
+		Only a man can love<br>
+		<br>
+		[Chorus]<br>
+
+	  </p>
+	  </div>
+		</article>		  
+  
+  </main>
+ 
+ 
+  <footer>
+    <aside>
+			<p style="text-align:center;">
+			<strong>The Franklin Forecast </strong> <br>
+			123 Main St. <br>
+			Franklin, MU 83454 <br>
+			(999) 999-9999 <br>
+			franklinforecast@ff.com	
+			</p>
+    </aside>
+	
+		<p class="footer-bar" style="text-align:center ;">
+		&copy;2018 All Rights Reserved | The Franklin Forecast | <span id="demoDate"></span></p>
+  
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+	  
+
+</body>
+</html>
