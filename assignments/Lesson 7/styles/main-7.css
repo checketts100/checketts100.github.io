@@ -10,13 +10,15 @@
   article p.town-article img { width: 25%; float:right; }  /* responsive images */
 
   footer {width: 25%;}
-  
-  img { width: 30%; height: auto; margin: 0}
-
-  
+       
   .dailytemp{ width: 10%; height:auto; margin: 1em}
   .logo{width: 10vw; height:auto; margin: 0; float: left}
+  
+  img.row{width: 30%; height: auto; margin: 0;}
 }
+
+
+
 
 /*PREVENTING PICTURES FROM OVERLAPPING*/
 .center {
@@ -75,13 +77,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
   height: auto;
   margin: 0;
 }
-/* forcing an image not to collapse*/
 
-.clearfix:after{
-	content: "";
-	display: table;
-	clear: both;
-}
 
 footer {font-size:9px;}
 footer aside {font-size:13px;}
@@ -91,9 +87,7 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 
 
 
-
 /* Hamburger Code */
-
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -118,3 +112,4 @@ footer>p {} /* This structure refers to p elements that are direct children of t
     text-align: left;
   }
 }
+
