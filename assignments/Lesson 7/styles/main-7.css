@@ -19,7 +19,6 @@
 
 
 
-
 /*PREVENTING PICTURES FROM OVERLAPPING*/
 .center {
     display: block;
@@ -40,13 +39,10 @@
 		#aNum {border:1px solid #bbeedd; background-color:#aaffcc; text-align:center;}
 
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
   font-size: 16px;
   margin: 1em;
-  /* Declare the base font-family - from google font api or other */
-  font-family:"Robot Slab, sans-serif";
   }
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
