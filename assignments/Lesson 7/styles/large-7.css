@@ -96,19 +96,16 @@ body {
 */
 .grid {
 	display:grid;
-	flex-wrap: wrap;
 	grid-template-columns: 1fr 1fr 1fr;
-	max-width: 50%;
-	flex: 50%;
+	grid-gap: 20px;
+
 	padding-top:1em;
 	 
-	
 }
 
 .grid img{
-
 	border-radius: 3px;
-	 vertical-align: middle;
+	vertical-align: middle;
 	
 }
 
