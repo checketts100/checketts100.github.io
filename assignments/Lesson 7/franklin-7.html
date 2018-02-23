@@ -88,12 +88,22 @@
       </div>           
     </section>
 	
-	<!--Captures input from suer to calculate windchill factor-->
+	<!--Captures input from user to calculate windchill factor-->
 	<section>
 		<div class="form">
-			Enter a three-digit integer: <input type="text" id="aNum" maxlength="3" size="1">
-			<input type="submit" onclick="computeNum()" value="Run Calculation">
-			<div id="output">Output Placeholder</div>
+			<h3>Factor wind chill speed in Fahrenheit</h3>
+			Please enter in temperature in Fahrenheit: <input id="userTemperature" size="3" 
+			style="text-align:center">
+			<br>
+			Please enter in wind speed in MPH: <input id="userWindSpeed" size="3"
+			style="text-align:center">
+			<br>
+			<button type="button" onclick="doInputOutput()">Wind Chill</button>
+			<br>
+			<p>***The wind chill calculator only works for temperatures below 50 degrees and 
+			wind speeds above 3 mph.</p>
+			<div id="outputDiv"></div>
+	
 		</div>
 	</section>
 
@@ -191,10 +201,11 @@
 		&copy;2018 All Rights Reserved | The Franklin Forecast | <span id="demoDate"></span></p>
   
 </footer>
-
+  <script src="scripts/windchill.js"></script>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
 	  
+
 
 </body>
 </html>
