@@ -52,7 +52,7 @@ function doInputOutput()  {
 	message = Math.round(message * 100) / 100
 	
 	//output message to user
-	document.getElementById('outputDiv').innerHTML = "<strong>Wind chill factor " + message + 
+	document.getElementById('outputDiv').innerHTML = "<strong>Wind chill factor: " + message + 
 	" degrees Fahrenheit.";
 
 function windChill (tempF, speed){

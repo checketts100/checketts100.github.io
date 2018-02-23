@@ -5,7 +5,7 @@
  
  /*nav button { display:none; }   hamburger button does not need to be shown */
   
-  section.forecast { display: none; }  /* show the 10-day forecast with the medium view and up */
+  div.container{ display: none; }  /* show the 10-day forecast with the medium view and up */
   
   article p.town-article img { width: 25%; float:right; }  /* responsive images */
 
@@ -16,7 +16,6 @@
   
   img.row{width: 30%; height: auto; margin: 0;}
 }
-
 
 
 /*PREVENTING PICTURES FROM OVERLAPPING*/
@@ -109,3 +108,20 @@ footer>p {} /* This structure refers to p elements that are direct children of t
   }
 }
 
+.grid {
+	display:grid;
+	flex-wrap: wrap;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 50%;
+	flex: 50%;
+	padding-top:1em;
+	 
+	
+}
+
+.grid img{
+
+	border-radius: 3px;
+	 vertical-align: middle;
+	
+}
