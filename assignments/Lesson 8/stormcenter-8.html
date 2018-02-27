@@ -50,6 +50,63 @@
    
  <main class="clearfix">
 	<h1> The Storm Center</h1>
+	
+	<form action="/action_page.php" target="_blank" method="post">
+		<fieldset>
+			<legend><strong>Personal information:</strong></legend>
+				<b>First name:</b><br>
+					<input type="text" name="firstname" value="First Name" min="5"><br>
+				<b>Last name:</b><br>
+					<input type="text" name="lastname" value="Last Name" min="5"><br><br>
+				
+				 <b>E-mail:</b><br>
+					<input type="email" name="email" value="user@gmail.com" size="30"><br>
+					
+				 <b>Telephone:</b><br>
+					<input type="tel" name="tel" value="555-555-5555" size="12" min="12">	<br>
+					
+				<b>Zip Code:</b> <br>
+					<input type="text" name="zipcope" min="5" size="5"><br>
+					
+				<b>Enter a date of the storm:</b><br>
+					<input type="date" name="date" min="2017-01-01" value="2018-01-01"><br>	<br>
+					
+					
+				<b>Please indicate what type of storm:</b>	<br>			
+				 <input list="storms">
+					<datalist id="storms">
+					<option value="Flash Flood">
+					<option value="Hail">
+					<option value="Hurricane">
+					<option value="Thunderstorm">
+					<option value="Tornado">
+				</datalist>  <br><br>
+				
+				<b>Please select range of storm severity:</b><br>
+					0<input type="range" name="severity" min="0" max="10">10	<br><br>
+
+				 
+				<b>Please indicate the user in danger:</b> <br>
+					<input type="radio" name="dangerlevel" value="no" checked> No<br>
+					<input type="radio" name="dangerlevel" value="yes"> Yes<br>
+					<input type="radio" name="dangerlevel" value="maybe"> Maybe<br><br>
+					
+				<b>Storm Region</b><br>
+					<select name="region">
+						<option value="selectregion" disable>Select Region</option>
+						<option value="franklin">Franklin</option>
+						<option value="greenville">Greenville</option>
+						<option value="springfield">Springfield</option>
+					</select><br><br>
+				
+				<textarea name="message" style="width:800px; height:100px">
+					Please enter in any additional comments.....
+				</textarea><br><br>
+				
+			<input type="submit" value="Submit"> <br>
+			<input type="reset">
+		</fieldset>
+	</form>
       
 </main>
  
