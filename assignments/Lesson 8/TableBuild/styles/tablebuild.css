@@ -1,0 +1,26 @@
+
+
+table {
+	border: 1px solid black;
+	font-family: ubuntu, sans-serif;
+}
+thead th {
+	font-size:24px;
+	
+	
+}
+thead td {
+	background-color:#628ca6;
+	color:white;
+	
+}
+
+tbody th{
+	
+	
+}
+tfoot {
+	background-color:#7fb9c2
+	
+	
+}

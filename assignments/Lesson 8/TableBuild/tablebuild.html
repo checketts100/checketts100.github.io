@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <title>Build Table</title>
 
-
+<!-- external style references in the proper cascading order -->    
+	<link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+	<link href="styles/tablebuild.css" rel="stylesheet">    
 
 
 
@@ -15,13 +17,13 @@
 <table>
 	<thead>
 		<th>ACME Wildwest</th>
+		<tr>
+			<td>Period</td>
+			<td>Sales</td>
+			<td>Sales Goal</td>
+		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<th>Period</th>
-			<th>Sales</th>
-			<th>Sales Goal</th>
-		</tr>
 		<tr>
 			<th>August</th>
 			<td>$3,590</td>
