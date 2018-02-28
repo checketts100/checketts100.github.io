@@ -1,26 +1,39 @@
 
+html {
+	font-family: ubuntu, sans-serif;
+}
 
 table {
 	border: 1px solid black;
-	font-family: ubuntu, sans-serif;
+	text-align:center;
+    height:350px;
+	width:300px;
 }
+
 thead th {
 	font-size:24px;
-	
-	
-}
-thead td {
-	background-color:#628ca6;
-	color:white;
+	background-color:#7fb9c2;
+	padding-bottom: .5em;
+	padding-top: .5em;
 	
 }
 
-tbody th{
-	
-	
+thead td {
+	background-color:#628ca6;
+	color:white;
+	padding-bottom: .5em;
+	padding-top: .5em;
 }
+
+tbody th{
+	background-color:#e7ffed;
+	border: 1px solid black;
+
+}
+
 tfoot {
-	background-color:#7fb9c2
-	
-	
+	background-color:#7fb9c2;
+	font-size:12px;
+	padding-bottom: .5em;
+	padding-top: .5em;
 }
