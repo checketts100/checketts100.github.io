@@ -37,7 +37,7 @@
 <nav class="clearfix">
   
  		<!-- site navigation use placeholder references -->
-		<button onclick="toggleNavMenu()"class="hamburger">&#9776;</button>
+		<button onclick="toggleNavMenu()" class="hamburger">&#9776;</button>
     		<div class="topnav" id="myTopnav">
 				<a class="active" href="./home-8.html">Home</a>
 				<a href="./franklin-8.html">Franklin</a>
@@ -56,10 +56,10 @@
 		<fieldset>
 			<legend><strong>Personal information:</strong></legend>
 				<label><b>First name:*</b><br>
-					<input type="text" name="firstname" placeholder="First Name" pattern="[a-zA-Z -._]{3,30]" required></label>
+					<input type="text" name="firstname" placeholder="First Name" pattern="[a-zA-Z -._]{3,30}" required></label>
 					
 				<label><b>Last name:*</b><br>
-					<input type="text" name="lastname" placeholder="Last Name"  pattern="[a-zA-Z -._]{3,30]" required></label>
+					<input type="text" name="lastname" placeholder="Last Name"  pattern="[a-zA-Z -._]" required></label>
 				
 				 <label><b>E-mail:</b><i> (optional)</i><br>
 					<input type="email" name="email" placeholder="user e-mail@gmail.com" size="50"></label>
@@ -68,7 +68,7 @@
 					<input type="tel" name="tel" placeholder="1235551234" size="20"  pattern="[0-9]{10,20}" required></label>
 						
 				<label><b>Zip Code:*</b> <br>
-					<input type="number" name="zipcope" placeholder="#####" size="5" pattern="[0-9]{5,9}" required></label>
+					<input type="text" name="zipcope" placeholder="#####" size="5" pattern="[0-9]{5,9}" required></label>
 				<i>* Indicates that field is required</i>
 		</fieldset>	
 			<br><br>
@@ -92,14 +92,14 @@
 					0<input type="range" name="severity" min="0" max="10">10	</label>
 
 				 
-				<label><b>Please indicate if the user is in danger:</b> <br>
+				<label><b>Please indicate if the user is in danger:</b> <br></label>
 					<input type="radio" name="dangerlevel" value="no" checked> No<br>
 					<input type="radio" name="dangerlevel" value="yes"> Yes<br>
-					<input type="radio" name="dangerlevel" value="maybe"> Maybe</label>
+					<input type="radio" name="dangerlevel" value="maybe"> Maybe
 					
 				<label><b>Storm Region</b><br>
 					<select name="region">
-						<option value="selectregion" disable>Select Region</option>
+						<option value="selectregion" disabled>Select Region</option>
 						<option value="franklin">Franklin</option>
 						<option value="greenville">Greenville</option>
 						<option value="springfield">Springfield</option>
