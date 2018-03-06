@@ -39,7 +39,7 @@
     var requestURL = 'https://checketts100.github.io/assignments/Lesson9/JSON/checkettsfamily.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
-    request.responseType = 'text';
+    request.responseType = 'json';
     request.send();
     request.onload = function() {
       var checkettsfamilyText = request.response;

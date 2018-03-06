@@ -9,45 +9,45 @@
       "age" : 39,
       "familyTitle" : "Father",
       "duties" : [
-        "Mow the Lawn",
-        "Trim the bushes",
-        "Basic repairs around the house"
-      ]
+			"Mow the Lawn",
+			"Trim the bushes",
+			"Basic repairs around the house"
+		]
     },
     {
       "name" : "Morgan Checketts",
       "age" : 31,
       "familyTitle" : "Mother",
       "duties" : [
-        "Keeping house organized",
-        "Cooking meals",
-        "Oversees finances",
-		"Makes the schedule"
-      ]
+			"Keeping house organized",
+			"Cooking meals",
+			"Oversees finances",
+			"Makes the schedule"
+		]
     },
     {
       "name" : "McKenzie Checketts",
       "age" : 8,
       "familyTitle" : "Daughter",
       "duties" : [
-        "Clean her room",
-        "clean the loft",
-        "vaccuum upstairs",
-        "Clean toilets",
-        "Fold her clothes and put them away"
-      ]
-    }
+			"Clean her room",
+			"clean the loft",
+			"vaccuum upstairs",
+			"Clean toilets",
+			"Fold her clothes and put them away",
+		]
+    },
 	{
       "name" : "Harrison Checketts",
       "age" : 6,
       "familyTitle" : "Son",
       "duties" : [
-        "Clean hius room",
-        "Clean the loft",
-        "vaccuum downstairs",
-        "Empty trash",
-        "Fold his clothes and put them away"
-      ]
+			"Clean hius room",
+			"Clean the loft",
+			"vaccuum downstairs",
+			"Empty trash",
+			"Fold his clothes and put them away"
+		]
     }
   ]
 }
