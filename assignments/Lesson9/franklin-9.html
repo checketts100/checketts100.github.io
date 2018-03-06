@@ -37,10 +37,10 @@
  		<!-- site navigation use placeholder references -->
 		<button onclick="toggleNavMenu()" class="hamburger">&#9776;</button>
     		<div class="topnav" id="myTopnav">
-				<a class="active" href="./home-9.html">Home</a>
+				<a class="active" href="./index.html">Home</a>
 				<a href="./franklin-9.html">Franklin</a>
-				<a href="#Greenville">Greenville</a>
-				<a href="#Springfield">Springfield</a>
+				<a href="./greenville.html">Greenville</a>
+				<a href="./springfield.html">Springfield</a>
 				<a href="./stormcenter-9.html">Storm Center</a>
 				<a href="./gallery-9.html">Gallery</a>
 				</div>
@@ -52,6 +52,19 @@
     <h2>The City of Franklin</h2>
    
     <section>
+	<h3>Weather Summary</h3>  
+		<h4>Weather Conditions for <span id="place"> City, State </span></h4> 
+		<p>Current Weather: <span id="current"> </span></p>
+		<p>Current Tempurature is <span id="currentTemp"> </span>&deg; F</p>
+		<p>Current wind speed: <span id="windSpeed"> </span> MPH</p>
+		<p>Current Weather Conditions: </p>
+		<img id="weatherIcon" src="" alt="Current Weather Conditions" class="currentWeather">
+		<p>Precipitation: <span id="precip"> </span>inches </p>
+		<br>
+		<span id="winddir"> </span>
+		<p>Forecast:Calm and chilly with high chance of snow </p>
+	
+	
       <h3>Weather Summary</h3>    
 		<div class="highlow">
 			<p>High: <b>76&deg;F</b></p>  
@@ -60,13 +73,13 @@
       <div class="current">
         Sunny, with clouds <br>
         <picture>
-            <img src="images/sunny-weather.png" class="dailytemp" alt="Sunny Weather picture">
+            <img id="weatherIcon" src="" alt="Current Weather Conditions" class="currentWeather">
         </picture>
       </div> 
 	  
       <div class="conditions">
-        <p>Precipitation: <b>10%</b></p>  
-        <p>Wind Speed: <b>5 mph SE</b></p>  
+        <p>Precipitation: <b><span id="precip"></span></b> inches</p>  
+        <p>Wind Speed: <b><span id="windSpeed"> </span> MPH</b> Direction: <b><span id="winddir"> </span></b></p>  
       </div>           
     </section>
 	
@@ -197,6 +210,8 @@
   <script src="scripts/windchill.js"></script>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
+  <script src="scripts/wu-weather.js"></script>
+  <script src="scripts/cityInfo.js"></script>
 	  
 
 

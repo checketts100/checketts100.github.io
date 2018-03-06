@@ -17,6 +17,12 @@
 	<link href="styles/main-9.css" rel="stylesheet">    <!-- default styles - small/phone views -->
 	<link href="styles/medium-9.css" rel="stylesheet">  <!-- medium/tablet views -->
 	<link href="styles/large-9.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+	
+	
+	
+	
+	
+	
 </head>
 
 
@@ -30,8 +36,15 @@
 		<h1>The Franklin Forecast</h1></div>
 		<div class="subheading">The Brighter Side of Life</div>
 		<br>
+<script>
+
+</script>
 		
 </header>
+
+<section>
+
+</section>
 		
 		
 <nav class="clearfix">
@@ -39,18 +52,28 @@
  		<!-- site navigation use placeholder references -->
 		<button onclick="toggleNavMenu()" class="hamburger">&#9776;</button>
     		<div class="topnav" id="myTopnav">
-				<a class="active" href="./home-9.html">Home</a>
+				<a class="active" href="./index.html">Home</a>
 				<a href="./franklin-9.html">Franklin</a>
-				<a href="#Greenville">Greenville</a>
-				<a href="#Springfield">Springfield</a>
+				<a href="./greenville.html">Greenville</a>
+				<a href="./springfield.html">Springfield</a>
 				<a href="./stormcenter-9.html">Storm Center</a>
 				<a href="./gallery-9.html">Gallery</a>
 				</div>
 </nav>
    
  <main class="clearfix">
- 
-      
+	<h1>Weather Conditions for <span id="place"> City, State </span></h1> 
+		<p>Current Weather: <span id="current"> </span></p>
+		<p>Current Tempurature is <span id="currentTemp"> </span>&deg; F</p>
+		<p>Current wind speed: <span id="windSpeed"> </span> MPH</p>
+		<p>Current Weather Conditions: </p>
+		<img id="weatherIcon" src="" alt="Current Weather Conditions" class="currentWeather">
+		<br>
+		<p>Forecast:Calm and chilly with high chance of snow </p>
+  
+   
+
+
 </main>
  
  
@@ -72,6 +95,8 @@
 
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
+  <script src="scripts/wu-weather.js"></script>
+  <script src="scripts/cityInfo.js"></script>
 	  
 
 </body>
