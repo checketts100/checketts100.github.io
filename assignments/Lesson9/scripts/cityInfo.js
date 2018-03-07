@@ -1,4 +1,4 @@
-//Javascript Document
+s//Javascript Document
 
 var cityInfo = new XMLHttpRequest();
 
@@ -11,7 +11,7 @@ cityInfo.onload = function() {
 	var townInfo = JSON.parse(cityInfo.responseText);
 	console.log(townInfo);
 	
-	
+	document.getElementById("townName").inner.HTML = townInfo.name[0];
 
 	
 }	
