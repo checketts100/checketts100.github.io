@@ -13,6 +13,12 @@
 
       <header>
 <script>
+/*
+    var header = document.querySelector('header');
+    var section = document.querySelector('section');
+    var requestURL = 'https://checketts100.github.io/assignments/Lesson9/JSON/checkettsfamily.json';
+    var request = new XMLHttpRequest();
+	
 	request.open('GET', requestURL);
 	request.responseType = 'text'; // now we're getting a string!
 	request.send();
@@ -21,8 +27,8 @@
 	var checkettsfamilyText = request.response; // get the string from the response
 	var checkettsfamily = json.parse(checkettsfamilyText); // convert it to an object
 	populateHeader(checkettsfamily);
-	showHeroes(checkettsfamily);
-}
+	//showHeroes(checkettsfamily);
+}*/
 </script>
       </header>
 
@@ -47,6 +53,7 @@
       populateHeader(checkettsfamily);
       showHeroes(checkettsfamily);
     }
+	
     function populateHeader(jsonObj) {
       var myH1 = document.createElement('h1');
       myH1.textContent = jsonObj['familyName'];

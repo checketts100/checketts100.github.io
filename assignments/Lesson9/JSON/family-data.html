@@ -12,20 +12,10 @@
   <body>
 
       <header>
-<script>
 
-
-
-
-
-
-</script>
       </header>
 
       <section>
-	
-	
-	  
 	  
 	  
       </section>
@@ -34,17 +24,17 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
 
-var requestURL = 'https://checketts100.github.io/assignments/Lesson9/JSON/checkettsfamily.json';
+var requestURL = 'https://checketts100.github.io/assignments/Lesson9/JSON/checkettsfamily.json' ;
 var request = new XMLHttpRequest();	
 request.open('GET', requestURL);	
 request.responseType = 'json';
-request.send();	
+request.send();
 
 request.onload = function() {
   var familyText = request.response;
   var family = JSON.parse(familyText);
   populateHeader(family);
-  showHeroes(family);	
+  showFamily(family);	
 }	
   function populateHeader(jsonObj) {
       var myH1 = document.createElement('h1');
