@@ -1,17 +1,18 @@
-s//Javascript Document
+//Javascript Document
+//FRANKLIN, MN
+var townInfo = new XMLHttpRequest();
 
-var cityInfo = new XMLHttpRequest();
+townInfo.open('GET','https://byui-cit230.github.io/weather/data/towndata.json', true);
 
-cityInfo.open('GET','https://byui-cit230.github.io/weather/data/towndata.json', true);
+townInfo.send();
 
-cityInfo.send();
-
-cityInfo.onload = function() {
+townInfo.onload = function() {
 	
-	var townInfo = JSON.parse(cityInfo.responseText);
-	console.log(townInfo);
+	var cityInfo = JSON.parse(townInfo.responseText);
+	console.log(cityInfo);
 	
-	document.getElementById("townName").inner.HTML = townInfo.name[0];
+	document.getElementById("townName").innerHTML = cityInfo.towns["0"].name;
+	document.getElementById("founded").innerHTML = cityInfo.towns["0"].yearFounded;
+	document.getElementById("moto").innerHTML = cityInfo.towns["0"].motto;
 
-	
-}	
+}
