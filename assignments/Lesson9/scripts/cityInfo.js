@@ -15,6 +15,4 @@ townInfo.onload = function() {
 	document.getElementById("rain").innerHTML = cityInfo.towns["0"].averageRainfall;
 	document.getElementById("events").innerHTML = cityInfo.towns["0"].events;
 
-		
-
 }

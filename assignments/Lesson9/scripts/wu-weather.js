@@ -17,7 +17,7 @@ weatherObject.onload = function() {
 	document.getElementById("windSpeed").innerHTML = weatherInfo.current_observation.wind_mph;
 	document.getElementById("weatherIcon").src = weatherInfo.current_observation.icon_url;
 	document.getElementById("precip").innerHTML = weatherInfo.current_observation.precip_today_in;
-	document.getElementById("winddir").innerHTML = weatherInfo.current_observation.wind_dir;
+	document.getElementById("winddir").innerHTML = weatherInfo.current_observation.wind_string;
 }
 //SPRINGFIELD, MN
 var weatherObject1 = new XMLHttpRequest();
@@ -37,7 +37,7 @@ weatherObject1.onload = function() {
 	document.getElementById("windSpeed1").innerHTML = weatherInfo1.current_observation.wind_mph;
 	document.getElementById("weatherIcon1").src = weatherInfo1.current_observation.icon_url;
 	document.getElementById("precip1").innerHTML = weatherInfo1.current_observation.precip_today_in;
-	document.getElementById("winddir1").innerHTML = weatherInfo1.current_observation.wind_dir;
+	document.getElementById("winddir1").innerHTML = weatherInfo1.current_observation.wind_string;
 }
 //GREENVILLE, ME
 var weatherObject2 = new XMLHttpRequest();
@@ -57,5 +57,5 @@ weatherObject2.onload = function() {
 	document.getElementById("windSpeed2").innerHTML = weatherInfo2.current_observation.wind_mph;
 	document.getElementById("weatherIcon2").src = weatherInfo2.current_observation.icon_url;
 	document.getElementById("precip2").innerHTML = weatherInfo2.current_observation.precip_today_in;
-	document.getElementById("winddir2").innerHTML = weatherInfo2.current_observation.wind_dir;
+	document.getElementById("winddir2").innerHTML = weatherInfo2.current_observation.wind_string;
 }

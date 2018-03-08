@@ -25,18 +25,7 @@
 			"Makes the schedule"
 		]
     },
-    {
-      "name" : "McKenzie Checketts",
-      "age" : 8,
-      "familyTitle" : "Daughter",
-      "duties" : [
-			"Clean her room",
-			"clean the loft",
-			"vaccuum upstairs",
-			"Clean toilets",
-			"Fold her clothes and put them away",
-		]
-    },
+
 	{
       "name" : "Harrison Checketts",
       "age" : 6,
