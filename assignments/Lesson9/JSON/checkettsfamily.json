@@ -33,7 +33,7 @@
       "duties" : [
 			"Clean his room",
 			"Clean the loft",
-			"vacuum downstairs",
+			"Vacuum downstairs",
 			"Empty trash",
 			"Fold his clothes and put them away"
 		]
@@ -43,11 +43,11 @@
       "age" : 8,
       "familyTitle" : "Daughter",
       "duties" : [
-			"Clean his room",
+			"Clean her room",
 			"Clean the loft",
-			"vacuum downstairs",
-			"Empty trash",
-			"Fold his clothes and put them away"
+			"Vacuum downstairs",
+			"Clean toilets",
+			"Fold her clothes and put them away"
 		]
     }
   ]
