@@ -31,9 +31,9 @@
       "age" : 6,
       "familyTitle" : "Son",
       "duties" : [
-			"Clean hius room",
+			"Clean his room",
 			"Clean the loft",
-			"vaccuum downstairs",
+			"vacuum downstairs",
 			"Empty trash",
 			"Fold his clothes and put them away"
 		]
@@ -43,12 +43,12 @@
       "age" : 8,
       "familyTitle" : "Daughter",
       "duties" : [
-			"Clean her room",
-			"clean the loft",
-			"vaccuum upstairs",
-			"Clean toilets",
-			"Fold her clothes and put them away",
+			"Clean his room",
+			"Clean the loft",
+			"vacuum downstairs",
+			"Empty trash",
+			"Fold his clothes and put them away"
 		]
-    },
+    }
   ]
 }
