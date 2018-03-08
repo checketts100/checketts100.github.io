@@ -2,7 +2,7 @@
 //CHECKETTS FAMILY
 var family = new XMLHttpRequest();
 
-family.open('GET','https://checketts100.github.io/assignments/Lesson9/JSON/checkettsfamily.json', true);
+family.open('GET','checkettsfamily.json', true);
 
 family.send();
 
