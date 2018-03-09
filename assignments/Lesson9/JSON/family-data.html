@@ -7,6 +7,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
+	 <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -16,69 +17,57 @@
       </header>
 
       <section>
-	  
-	  
+
       </section>
 
     <script>
-var header = document.querySelector('header');
-var section = document.querySelector('section');
-
-var requestURL = 'https://checketts100.github.io/assignments/Lesson9/JSON/checkettsfamily.json' ;
-var request = new XMLHttpRequest();	
-request.open('GET', requestURL);	
-request.responseType = 'json';
-request.send();
-
-request.onload = function() {
-  var familyText = request.response;
-  var family = JSON.parse(familyText);
-  populateHeader(family);
-  showFamily(family);	
-}	
-  function populateHeader(jsonObj) {
+    var header = document.querySelector('header');
+    var section = document.querySelector('section');
+    var requestURL = "https://checketts100.github.io/assignments/Lesson9/JSON/checkettsfamily.json";
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+      var checkettsFamily = request.response;
+      populateHeader(checkettsFamily);
+      familyMembers(checkettsFamily);
+    }
+    function populateHeader(jsonObj) {
       var myH1 = document.createElement('h1');
       myH1.textContent = jsonObj['familyName'];
       header.appendChild(myH1);
-
-  var myPara = document.createElement('p');
-  myPara.textContent = 'Current City: ' + jsonObj['currentCity'] + ' // Married: ' + jsonObj['married'];
-  header.appendChild(myPara);
-}
-
-
-function showFamily(jsonObj) {
-  var persons = jsonObj['members'];
-      
-  for (var i = 0; i < persons.length; i++) {
-    var myArticle = document.createElement('article');
-    var myH2 = document.createElement('h2');
-    var myPara1 = document.createElement('p');
-    var myPara2 = document.createElement('p');
-    var myPara3 = document.createElement('p');
-    var myList = document.createElement('ul');
-
-    myH2.textContent = persons[i].name;
-    myPara1.textContent = 'Family Title: ' + persons[i].familyTitle;
-    myPara2.textContent = 'Age: ' + persons[i].age;
-    myPara3.textContent = 'Duties:';
-        
-    var familyDuties = persons[i].duties;
-    for (var j = 0; j < familyDuties.length; j++) {
-      var listItem = document.createElement('li');
-      listItem.textContent = familyDuties[j];
-      myList.appendChild(listItem);
+      var myPara = document.createElement('p');
+      myPara.textContent = 'Current City: ' + jsonObj['currentCity'] + ' // Married: ' + jsonObj['married'];
+      header.appendChild(myPara);
     }
-
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-    myArticle.appendChild(myPara3);
-    myArticle.appendChild(myList);
-
-    section.appendChild(myArticle);
-}}
+    function familyMembers(jsonObj) {
+      var names = jsonObj['members'];
+      for(var i = 0; i < names.length; i++) {
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myPara1 = document.createElement('p');
+        var myPara2 = document.createElement('p');
+        var myPara3 = document.createElement('p');
+        var myList = document.createElement('ul');
+        myH2.textContent = names[i].name;
+        myPara1.textContent = 'Family Title: ' + names[i].familyTitle;
+        myPara2.textContent = 'Age: ' + names[i].age;
+        myPara3.textContent = 'Household Duties:';
+        var dutiesList = names[i].duties;
+        for(var j = 0; j < dutiesList.length; j++) {
+          var listItem = document.createElement('li');
+          listItem.textContent = dutiesList[j];
+          myList.appendChild(listItem);
+        }
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myList);
+        section.appendChild(myArticle);
+      }
+    }
     </script>
-	  <script src="family.js"></script>
   </body>
 </html>
