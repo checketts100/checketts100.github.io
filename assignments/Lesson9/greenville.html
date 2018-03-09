@@ -56,8 +56,37 @@
  <h1>Greenville City</h1>
  
    <section>
+   
+   	<h3 class="data">Weather Summary</h3> 
+
+<table class="forecast">
+	    <thead>
+          <tr>
+            <th class="box"><h4>Weather Conditions for </h4></th>
+            <th class="box">Current Tempurature is </th>
+            <th class="box">Current Weather:</th>
+            <th class="box">Current Weather Conditions: </th>
+            <th class="box">Current wind speed:</th>
+            <th class="box">Forecast:</th>
+            <th class="box">Precipitation:</th>
+          </tr>
+		</thead>
+        <tbody>  
+          <tr>
+            <td class="box"><span id="place1"> City, State </span></td>
+            <td class="box"><span id="currentTemp1"> </span>&deg; F</td>
+            <td class="box"><span id="current1"> </span></td>
+            <td class="box"><img id="weatherIcon1" src="" alt="Current Weather Conditions" class="currentWeather"></td>
+            <td class="box"><span id="windSpeed1"> </span> MPH</td>
+            <td class="box"><span id="winddir1"> </span></td>
+            <td class="box"><span id="precip1"> </span> inches</td>
+          </tr>
+		</tbody>
+      </table>
+	  
+	  <!--
 	<h3>Weather Summary</h3>  
-		<h4>Weather Conditions for <span id="place2"> City, State </span></h4> 
+		<h4 class="data">Weather Conditions for <span id="place2"> City, State </span></h4> 
 		
 			<p>Current Tempurature is <span id="currentTemp2"> </span>&deg; F</p>
 			<p>Current Weather: <span id="current2"> </span></p>
@@ -66,9 +95,9 @@
 			<p>Current wind speed: <span id="windSpeed2"> </span> MPH</p>
 			<p>Forecast: <span id="winddir2"> </span></p>
 			<p>Precipitation: <span id="precip2"> </span> inches </p>
-		<br>
+-->		<br>
 		
-		 <h2>Town historical data:</h2> 
+		 <h2 class="data">Town historical data:</h2> 
 			<h4>Town Name: <span id="townName1"> </span></h4>	
 			<p>Town Moto: <span id="moto1"> </span></p>
 			<p>Founded: <span id="founded1"> </span> </p>	

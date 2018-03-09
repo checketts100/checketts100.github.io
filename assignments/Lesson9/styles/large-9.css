@@ -46,24 +46,26 @@ legend{
 
 
 /* WEATHER CONDITIONS*/
-	main section {
+main section table {
+	text-align: center;
+	    display: block;
+
+    width: 100%;
 	
-			text-align: left;
-	}
-	main section aside{
-		text-align: right;
-	}
+	
+}
 		main section .data{
 			color: #7FFFD4;
-			background-color: #FFF8DC;
-	}	
+			background-color: #333;
+		}	
 	span {
 		font-weight: bold;
 	}
 
 	
+	
 /* 10 DAY FORECAST TABLE*/
-	.container {
+	div.container {
 		display:flex;
 		border: 2px solid;
 		align-items: flex-start;

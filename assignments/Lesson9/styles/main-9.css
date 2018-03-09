@@ -17,6 +17,7 @@
   img.row{width: 30%; height: auto; margin: 0;}
 }
 
+table.forecast{min-width: 200px;}
 
 /*PREVENTING PICTURES FROM OVERLAPPING*/
 .center {
