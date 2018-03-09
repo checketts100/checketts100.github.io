@@ -45,6 +45,23 @@ legend{
 
 
 
+/* WEATHER CONDITIONS*/
+	main section {
+	
+			text-align: left;
+	}
+	main section aside{
+		text-align: right;
+	}
+		main section .data{
+			color: #7FFFD4;
+			background-color: #FFF8DC;
+	}	
+	span {
+		font-weight: bold;
+	}
+
+	
 /* 10 DAY FORECAST TABLE*/
 	.container {
 		display:flex;
@@ -52,12 +69,12 @@ legend{
 		align-items: flex-start;
 		background-color: #FFF8DC;
 		justify-content:center;
-}	
+	}	
 	.box {
 		flex:1;
 		border:2px solid;
 		padding: .5em;
-}
+	}
 
 	
 /*NAVIGATION BAR*/
