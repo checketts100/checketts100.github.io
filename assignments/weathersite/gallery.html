@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GALLERY : The Franklin Forecast</title>
+  <meta name="Adam Checketts" content="Adam Checketts">
+  <meta name="The Franklin Forecast: local weather" content="This page contains images for Franklin City and the surrounding cities">
+  
+	<style>
+		body {background-color:rgba(95,158,160,.20);}
+	</style>
+
+  <!-- external style references in the proper cascading order -->    
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">  <!-- Google API font reference -->
+	<link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+	<link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+	<link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+	<link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+</head>
+
+
+<body>
+    <img src="images/sunny.png" alt="The Franklin Forecast Logo" class="logo">
+
+<header>
+	
+		<div style="padding-left:24px">
+		<h1>The Franklin Forecast</h1></div>
+		<div class="subheading">The Brighter Side of Life</div>
+		<br>
+		
+</header>
+		
+		
+<nav class="clearfix">
+  
+ 		<!-- site navigation use placeholder references -->
+		<button onclick="toggleNavMenu()" class="hamburger">&#9776;</button>
+    		<div class="topnav" id="myTopnav">
+				<a class="active" href="./index.html">Home</a>
+				<a href="./franklin.html">Franklin</a>
+				<a href="./greenville.html">Greenville</a>
+				<a href="./springfield.html">Springfield</a>
+				<a href="./stormcenter.html">Storm Center</a>
+				<a href="./gallery.html">Gallery</a>
+				</div>
+</nav>
+   
+ <main class="clearfix">
+ 
+  <div class="grid">
+	  <div>
+			<img src="images/bridge.jpg" alt="Bridge over the Elk Creek River">
+			Bridge over the Elk Creek River</div>
+	  <div>
+			<img src="images/tracks.jpg" alt="Train tracks of the Union Pacific Railroad">
+			Train tracks of the Union Pacific Railroad</div>
+	  <div>
+			<img src="images/flower.jpg" alt="A rose in the meadow">
+			A rose in the meadow</div>
+	   <div>
+			<img src="images/sky.jpg" alt="Sunset in the spring">
+			Sunset in the spring</div>
+	  <div>
+			<img src="images/duck.jpg" alt="Mallard duck swimming in Elk Creek River">
+			Mallard duck swimming in Elk Creek River</div>
+	  <div>
+			<img src="images/tree.jpg" alt="Trees in the forest near Franklin City">
+			Trees in the forest near Franklin City</div>
+	</div>		
+	 
+ 	 
+</main>
+ 
+ 
+<footer>
+    <aside>
+			<p style="text-align:center;">
+			<strong>The Franklin Forecast </strong> <br>
+			123 Main St. <br>
+			Franklin, MU 83454 <br>
+			(999) 999-9999 <br>
+			franklinforecast@ff.com	
+			</p>
+    </aside>
+	
+		<p class="footer-bar" style="text-align:center;">
+		&copy;2018 All Rights Reserved | The Franklin Forecast | <span id="demoDate"></span></p>
+  
+</footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+	  
+
+</body>
+</html>
