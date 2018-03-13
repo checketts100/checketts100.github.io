@@ -5,7 +5,7 @@
  
  /*nav button { display:none; }   hamburger button does not need to be shown */
   
-  div.container{ display: none; }  /* show the 10-day forecast with the medium view and up */
+  main div.container{ display: none; }  /* show the 10-day forecast with the medium view and up */
   
   article p.town-article img { width: 25%; float:right; }  /* responsive images */
 
