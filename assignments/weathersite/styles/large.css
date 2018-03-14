@@ -123,15 +123,21 @@ main section table {
 /*HOME PAGE TABLE*/
 
 
+#townInfo {
 
-
-
+	flex-wrap: wrap;
+}
 
 #townInfo article {
-	display: felx;
+	
 	border:2px solid;
 	margin: 5px;
 	text-align: center;
+
+}
+#townInfo img{
+	vertical-align: middle;
+	max-height:35vw;
 }
 /*	
 }

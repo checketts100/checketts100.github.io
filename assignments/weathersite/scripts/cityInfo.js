@@ -13,6 +13,8 @@ townInfo.onload = function() {
 	document.getElementById("moto").innerHTML = cityInfo.towns["0"].motto;
 	document.getElementById("population").innerHTML = cityInfo.towns["0"].currentPopulation;
 	document.getElementById("rain").innerHTML = cityInfo.towns["0"].averageRainfall;
+	
+	
 	document.getElementById("events").innerHTML = cityInfo.towns["0"].events;
 
 }
