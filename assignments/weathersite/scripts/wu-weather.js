@@ -2,7 +2,7 @@
 //FRANKLIN, MN
 var weatherObject = new XMLHttpRequest();
 
-weatherObject.open('GET','http://api.wunderground.com/api/5d9809b7dda42a6c/conditions/q/MN/Franklin.json', true);
+weatherObject.open('GET','https://api.wunderground.com/api/5d9809b7dda42a6c/conditions/q/MN/Franklin.json', true);
 
 weatherObject.send();
 
@@ -23,7 +23,7 @@ weatherObject.onload = function() {
 //GREENVILLE, TX
 var weatherObject1 = new XMLHttpRequest();
 
-weatherObject1.open('GET','http://api.wunderground.com/api/5d9809b7dda42a6c/conditions/q/TX/Greenville.json', true);
+weatherObject1.open('GET','https://api.wunderground.com/api/5d9809b7dda42a6c/conditions/q/TX/Greenville.json', true);
 
 weatherObject1.send();
 
@@ -44,7 +44,7 @@ weatherObject1.onload = function() {
 //SPRINGFIELD, OR
 var weatherObject2 = new XMLHttpRequest();
 
-weatherObject2.open('GET','http://api.wunderground.com/api/5d9809b7dda42a6c/conditions/q/OR/Springfield.json', true);
+weatherObject2.open('GET','https://api.wunderground.com/api/5d9809b7dda42a6c/conditions/q/OR/Springfield.json', true);
 
 weatherObject2.send();
 
