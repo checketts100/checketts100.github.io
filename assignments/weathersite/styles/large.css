@@ -115,9 +115,10 @@ main section table {
 	.grid img{
 		border-radius: 3px;
 		margin-top: 8px;
+		padding: 0 8px;
 		vertical-align: middle;
 		max-height:35vw;
-		width: 100%
+		width: auto;
 }
 
 /*HOME PAGE TABLE*/
