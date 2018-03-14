@@ -109,3 +109,13 @@ footer>p {} /* This structure refers to p elements that are direct children of t
   }
 }
 
+
+/*HOME PAGE MAIN*/
+
+#townInfo {
+
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    margin: 0 auto;
+
+}

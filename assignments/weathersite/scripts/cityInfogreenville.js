@@ -7,7 +7,7 @@ townInfo1.onload = function() {
 	var cityInfo1 = JSON.parse(townInfo1.responseText);
 	console.log(cityInfo1);
 	
-	document.getElementById("townName1").innerHTML = cityInfo1.towns[1].name;
+	//document.getElementById("townName1").innerHTML = cityInfo1.towns[1].name;
 	document.getElementById("founded1").innerHTML = cityInfo1.towns[1].yearFounded;
 	document.getElementById("moto1").innerHTML = cityInfo1.towns["1"].motto;
 	document.getElementById("population1").innerHTML = cityInfo1.towns["1"].currentPopulation;

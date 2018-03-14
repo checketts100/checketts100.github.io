@@ -14,6 +14,7 @@ header{
 	font-size:2vw;
 	background-color: #FFF8DC;
 	border: 2px solid black;
+	
 }
 body {
 	font-family:"Robot Slab, sans-serif";
@@ -121,22 +122,26 @@ main section table {
 /*HOME PAGE TABLE*/
 
 
-#townInfo article p {
-    font-size: 16px;
-    margin: 20px;
-   
+
+
+
+
+#townInfo article {
+	display: felx;
+	border:2px solid;
+	margin: 5px;
+	text-align: center;
+}
+/*	
 }
 #townInfo p {
     padding: 0 1rem 0 2rem;
 }
-* {
-    box-sizing: border-box;
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
-
-#townInfo {
-    padding: 1fx 1fx 1fx;
-    display: flex;
-    margin: 0 auto;
-	
-	
-}
+*/
