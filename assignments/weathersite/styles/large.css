@@ -116,9 +116,27 @@ main section table {
 		vertical-align: middle;
 		max-height:35vw;
 		width: 100%
-		
-
 }
 
+/*HOME PAGE TABLE*/
 
 
+#townInfo article p {
+    font-size: 16px;
+    margin: 20px;
+   
+}
+#townInfo p {
+    padding: 0 1rem 0 2rem;
+}
+* {
+    box-sizing: border-box;
+}
+
+#townInfo {
+    padding: 1fx 1fx 1fx;
+    display: flex;
+    margin: 0 auto;
+	
+	
+}
