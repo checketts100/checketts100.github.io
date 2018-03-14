@@ -1,5 +1,6 @@
 //Javascript Document
 //FRANKLIN, MN
+
 var weatherObject = new XMLHttpRequest();
 
 weatherObject.open('GET','https://api.wunderground.com/api/5d9809b7dda42a6c/conditions/q/MN/Franklin.json', true);

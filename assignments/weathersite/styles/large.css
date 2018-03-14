@@ -55,6 +55,7 @@ main section table {
 		main section .data{
 			color: #7FFFD4;
 			background-color: #333;
+			font-size: 20px;
 		}	
 	span {
 		font-weight: bold;
