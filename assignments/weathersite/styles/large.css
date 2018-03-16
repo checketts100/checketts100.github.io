@@ -4,10 +4,8 @@
   article p.town-article img { width: 29.333%; }
     
 	/*img{width: 30em; height: auto; margin: 0}*/
-	.grid img:hover {box-shadow: 5px 5px 10px gray;}
-		
-	
-	 .logo{width: 10vw; height:auto; padding: 1px; float: left}
+			
+	.logo{width: 10vw; height:auto; padding: 1px; float: left}
 	.dailytemp{ width: 10%; height:auto; margin: 1em}
 } 
 header{
@@ -28,34 +26,34 @@ body {
 }
 
 /*STORM CENTER FORM PAGE STYLING*/
-form {
+	form {
 	margin: 1em;
-}
-fieldset{	
+	}
+	fieldset{	
 	background-color:#FFF8DC;
-}
-label{
+	}
+	label{
 	margin: .5em;
 	display:block;
 	padding-bottom:.25em;
 	}
-legend{
+	legend{
 	color:red;
 	font-size:24px;
-}
+	}
 
 
 
 /* WEATHER CONDITIONS*/
-main section table {
-	text-align: center;
-	display: block;
-    width: 100%;
-}
-		main section .data{
-			color: #7FFFD4;
-			background-color: #333;
-			font-size: 20px;
+	main section table {
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+	main section .data{
+		color: #7FFFD4;
+		background-color: #333;
+		font-size: 20px;
 		}	
 	span {
 		font-weight: bold;
@@ -79,12 +77,12 @@ main section table {
 
 	
 /*NAVIGATION BAR*/
-/* Add a black background color to the top navigation */
+	/* Add a black background color to the top navigation */
 	.topnav {
 		background-color: #333;
 		overflow: hidden;
-}
-/* Style the links inside the navigation bar - Color of font*/
+	}
+	/* Style the links inside the navigation bar - Color of font*/
 	.topnav a {
 		float: left;
 		color: #7FFFD4;
@@ -92,26 +90,27 @@ main section table {
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 17px;
-}
-/* Change the color of links on hover */
+	}
+	/* Change the color of links on hover */
 	.topnav a:hover {
 		background-color: #00FFFF;
 		color: black;
-}
-/* Add a color to the active/current link */
+	}
+	/* Add a color to the active/current link */
 	.topnav a.active {
 		background-color: #FFF8DC;
 		color: black;
-}
+	}
 
 
 /*GRID FOR PICTURES IN GALLERY*/
+	.grid img:hover {box-shadow: 5px 5px 10px gray;}
 	.grid {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 0 4px;
 		flex: 25%;
-}
+	}
 	.grid img{
 		border-radius: 3px;
 		margin-top: 8px;
@@ -119,37 +118,23 @@ main section table {
 		vertical-align: middle;
 		max-height:35vw;
 		width: auto;
-}
+	}
+
 
 /*HOME PAGE TABLE*/
-
-
-#townInfo {
+	.indexpics:hover {box-shadow: 5px 5px 10px gray;}
+	#townInfo {
 	display:inline block;
 	flex-wrap: wrap;
-}
-
-#townInfo article {
+	}
+	#townInfo article {
 	
 	border:2px solid;
 	margin: 5px;
 	text-align: center;
-
-}
-#townInfo img{
+	}
+	#townInfo img{
 	vertical-align: middle;
 	max-height:35vw;
-}
-/*	
-}
-#townInfo p {
-    padding: 0 1rem 0 2rem;
-}
-p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-*/
+	}
+
