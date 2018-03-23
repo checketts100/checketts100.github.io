@@ -263,8 +263,8 @@ body {
 	background:rgba(0, 167, 255, 0.86);
 }
 
-.footer h5 {
-	position: absolute;
+.footer .links {
+position:wrap;
 	top: 8px;
 	left: 7px;
 	font-family: 'Raleway', sans-serif;
