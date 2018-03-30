@@ -4,7 +4,8 @@
 
 body {
   font-size: 16px;
-	font-family: 'Spinnaker', sans-serif, 'Rock Salt', cursive;;
+	font-family: 'Spinnaker', sans-serif, 'Rock Salt', cursive;
+	background-color:rgba(222,184,135,.90);
 }
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
@@ -31,7 +32,16 @@ main figure img { width: 100%; }
 
 section {}
 
+header{
+	font-size: 17px;
+	background-color: #556b2f;
+	border: 2px solid black;
+	font-family: 'Rock Salt', cursive;
+	color: white;
 
+}
+.logo{width: 18vw; height:auto; padding: 1px; float: left}
+	
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: ???; /* fill the page in the small/phone view */
@@ -84,3 +94,5 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 		text-align: left;
 	}
 	}
+	
+	
