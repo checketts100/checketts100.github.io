@@ -97,7 +97,7 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 	}
 	
 	
-	/*CONTACT PAGE FORM PAGE STYLING*/
+/*CONTACT PAGE FORM PAGE STYLING*/
 	form {
 	margin: 1em;
 	}
@@ -116,6 +116,23 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 	fieldset legend{
 	font-size:24px;
 	background-color: #333;
+	}
 	
+	
+/*HOME PAGE TABLE*/
+	.indexpics:hover {box-shadow: 5px 5px 10px gray;}
+	#townInfo {
+	display:inline block;
+	flex-wrap: wrap;
+	}
+	#townInfo article {
+	
+	border:2px solid;
+	margin: 5px;
+	text-align: center;
+	}
+	#townInfo img{
+	vertical-align: middle;
+	max-height:35vw;
 	}
 	
