@@ -38,6 +38,7 @@ header{
 	border: 2px solid black;
 	font-family: 'Rock Salt', cursive;
 	color: white;
+	
 
 }
 .logo{width: 18vw; height:auto; padding: 1px; float: left}
@@ -95,4 +96,26 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 	}
 	}
 	
+	
+	/*CONTACT PAGE FORM PAGE STYLING*/
+	form {
+	margin: 1em;
+	}
+	fieldset{	
+	background-color:#556b2f;
+		}
+	label{
+	margin: .5em;
+	display:block;
+	padding-bottom:.25em;
+	}
+	legend{
+	color:white;
+	font-size:24px;
+	}
+	fieldset legend{
+	font-size:24px;
+	background-color: #333;
+	
+	}
 	
