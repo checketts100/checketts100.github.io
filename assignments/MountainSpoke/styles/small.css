@@ -121,17 +121,17 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 	
 /*HOME PAGE TABLE*/
 	.indexpics:hover {box-shadow: 5px 5px 10px gray;}
-	#townInfo {
+	#bikeInfo {
 	display:inline block;
 	flex-wrap: wrap;
 	}
-	#townInfo article {
+	#bikeInfo article {
 	
 	border:2px solid;
 	margin: 5px;
 	text-align: center;
 	}
-	#townInfo img{
+	#bikeInfo img{
 	vertical-align: middle;
 	max-height:35vw;
 	}
