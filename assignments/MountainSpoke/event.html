@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Mountain Spoke:Contact Us</title>
+  <title>The Mountain Spoke</title>
   <meta name="Adam Checketts" content="Adam Checketts">
-  <meta name="The Mountain Spoke" content="This page contains a Google Map and form to be submitted for requested information">
+  <meta name="The Mountain Spoke" content="This page contains images and information for bicycle enthusiasts for the Bozeman, Montana area">
   
 
 	
@@ -19,19 +19,6 @@
 	<link href="styles/small.css" rel="stylesheet">    <!-- default styles - small/phone views -->
 	<link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
 	<link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
-
-	
-<script>
-	function myMap() {
-	var mapCanvas = document.getElementById("map");
-	var mapOptions = {
-		center: new google.maps.LatLng(51.5, -0.2), zoom: 10
-	};
-	var map = new google.maps.Map(mapCanvas, mapOptions);
-}
-</script>	
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-	
 </head>
 
 
@@ -53,33 +40,42 @@
     		<div class="topnav" id="myTopnav">
 				<a href="./index.html">Home</a>
 				<a href="./adventureTours.html">Adventure Tours</a>
-				<a href="./event.html">Events</a>
+				<a class="active" href="./event.html">Events</a>
 				<a href="./sales.html">Sales Page</a>
 				<a href="./service.html">Bike Service</a>
-				<a  class="active" href="./contact.html">Contact Us</a>
+				<a href="./contact.html">Contact Us</a>
 				</div>
 </nav>
    
  <main class="clearfix">
-	<section id="townInfo">
+ 
+ 	<figure class="center">
+		<img src="images/bicycle-woods.jpg" alt="The Mountain Spoke trails">  
 	
-	<h1> Come visit us at:</h1>
+	</figure>
+ 
+	<section id="bikeInfo">
+	 <!-- CONTINENTAL DIVIDE EVENT -->	
+		<article>
+		<a href="./event.html">
+		<img src="images/cycleTheContinentalDivide.jpg"  class="indexpics" alt="Event:The Continental Divide" >
+		</a>
+		<h4>The Continental Divide Tour</h4> 
+
+		
+		
+		
+		</article>
+		
+		
+		
+	 
+	</section>
+
 	
-	<div> <strong>The Mountain Spoke </strong><br>
-	3950 Valley Commons Drive  <br>
-	Bozeman, MT 59715  <br>
-	</div>
-	
-	
-	
-	<!-- EMBEDDED GOOGLE VIDEO -->
-	
-	
-<iframe class="center" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2787.9316277611038!2d-111.09290618443558!3d45.672272879103936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!3m2!1d45.672272899999996!2d-111.0907175!5e0!3m2!1sen!2sus!4v1522844596892" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	
-	
-	<h4> Request for Mountain Spoke to contact you:</h4>	
-		<form action="./thanks.html" target="_blank" method="get" name="scform">
+	<!--REGISTRATION FORM-->	
+		<h4> Registration Form:</h4>	
+		<form action="./registration.html" target="_blank" method="get" name="scform">
 		<fieldset>
 			<legend><strong>Personal information:</strong></legend>
 				<label><b>First name:*</b><br>
@@ -88,7 +84,10 @@
 				<label><b>Last name:*</b><br>
 					<input type="text" name="lastname" placeholder="Last Name"  pattern="[a-zA-Z -._]{3,30}" required></label>
 				
-				 <label><b>E-mail:</b><i> (optional)</i><br>
+				<label><b>Enter birthdate:</b><br>
+					<input type="date" name="date" min="1920-01-01" value="2018-01-01"></label>				
+				
+				<label><b>E-mail:</b><i> (optional)</i><br>
 					<input type="email" name="email" placeholder="user e-mail@gmail.com" size="50"></label>
 						
 				 <label><b>Telephone:*</b><br>
@@ -100,9 +99,9 @@
 		</fieldset>	
 	
 			<fieldset>
-			<legend><strong>Additional comments:</strong></legend>
+			<legend><strong>Special Requests:</strong></legend>
 				<textarea name="message" style="width:800px; height:100px" >
-					Please enter in any additional comments.....
+					Please enter in any additional comments or special requests.....
 				</textarea><br>
 				
 			<input type="submit" value="Submit"> <br><br>
@@ -110,15 +109,11 @@
 		</fieldset>
 	</form>
 	
-	
-	
-	
+
 </main>
  
  <hr>
 <footer>
-
-	
 		<p class="footer-bar" style="text-align:center;">
 		&copy;2018 All Rights Reserved | The Mountain Spoke | <!--REPLACE--> <span id="demoDate"></span></p>
   

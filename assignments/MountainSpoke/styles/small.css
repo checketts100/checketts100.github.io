@@ -42,7 +42,11 @@ header{
 
 }
 .logo{width: 18vw; height:auto; padding: 1px; float: left}
-	
+
+
+/*GOOGLE MAP EMBEDDED*/	
+iframe {width: 100%; height:400px; padding: 1px, float:right}
+
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: ???; /* fill the page in the small/phone view */
@@ -124,6 +128,7 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 	#bikeInfo {
 	display:inline block;
 	flex-wrap: wrap;
+
 	}
 	#bikeInfo article {
 	
