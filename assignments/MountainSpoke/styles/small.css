@@ -120,12 +120,11 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 	}
 	
 	
-/*HOME PAGE TABLE*/
+/*PICTURE FORMAT FOR THE WEBSITE*/
 	.indexpics:hover {box-shadow: 5px 5px 10px gray;}
 	#bikeInfo {
 	display:inline block;
 	flex-wrap: wrap;
-
 	}
 	#bikeInfo article {
 	
@@ -138,3 +137,19 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 	max-height:35vw;
 	}
 	
+	
+	
+/* BIKING TOURS*/
+	main section table {
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+	main section .data{
+		color: #7FFFD4;
+		background-color: #333;
+		font-size: 20px;
+		}	
+	span {
+		font-weight: bold;
+	}
