@@ -38,6 +38,7 @@ header{
 	border: 2px solid black;
 	font-family: 'Rock Salt', cursive;
 	color: white;
+	text-align: center;
 	
 
 }
@@ -135,6 +136,11 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 	#bikeInfo img{
 	vertical-align: middle;
 	max-height:35vw;
+	flex-wrap: wrap;
+	padding-top: 1em;
+	padding-left: .25em;
+	padding-right:.25em;
+	
 	}
 	
 	
@@ -146,10 +152,12 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 		width: 100%;
 	}
 	main section .data{
-		color: #7FFFD4;
+		color: rgba(222,184,135,.90);
 		background-color: #333;
-		font-size: 20px;
-		}	
+		font-size: 24px;
+		padding-bottom:.5em;
+		padding-top:.5em;
+	}	
 	span {
 		font-weight: bold;
 	}
