@@ -32,6 +32,8 @@ main figure img { width: 100%; }
 
 section {}
 
+
+/* LOGO AND HEADER INFORMATION*/
 header{
 	font-size: 17px;
 	background-color: #556b2f;
@@ -39,10 +41,10 @@ header{
 	font-family: 'Rock Salt', cursive;
 	color: white;
 	text-align: center;
-	
-
 }
 .logo{width: 18vw; height:auto; padding: 1px; float: left}
+
+
 
 
 /*GOOGLE MAP EMBEDDED*/	
@@ -179,7 +181,7 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 		border-radius: 3px;
 		margin-top: 8px;
 		padding: 0 8px;
-		vertical-align: middle;
-		max-height:35vw;
+		vertical-align: center;
+		max-height:30vw;
 		width: auto;
 	}
