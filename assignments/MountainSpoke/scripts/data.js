@@ -10,7 +10,9 @@ services .onload = function () {
 	console.log(serviceData);
 	
 	document.getElementById("repairService").innerHTML = ServiceData.services["0"].service;
-	
+	document.getElementById("repairCost").innerHTML = ServiceData.services["0"].cost;
+	document.getElementById("repairDuration").innerHTML = ServiceData.services["0"].duration;
+	document.getElementById("repairList").innerHTML = ServiceData.services["0"].listofrepairs;
 	
 	
 }
