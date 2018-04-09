@@ -9,6 +9,8 @@ services .onload = function () {
 	var serviceData = JSON.parse(services.responseText);
 	console.log(serviceData);
 	
+	document.getElementById("repairService").innerHTML = ServiceData.services["0"].service;
+	
 	
 	
 }

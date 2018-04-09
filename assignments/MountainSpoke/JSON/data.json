@@ -1,56 +1,55 @@
-
-
 {
 	"services" : [
-
  {
-
 	"service": "Basic Tune-Up",
 	"cost": 39.99,
 	"duration": ".5 hrs",
-	"listofrepairs": "Includes brake inspection and adjustments, derailleur inspection and adjustments,",
-	"tire inspection and inflation, safety check of all bolts and wipe down of frame."
+	"listofrepairs": [
+		"Includes brake inspection and adjustments, derailleur inspection and adjustments,",
+		"tire inspection and inflation, safety check of all bolts and wipe down of frame."
+ ]
  },
-
  {
-
 	"service": "Premium Tune-Up",
 	"cost": 69.99,
 	"duration": ".75 hrs",
-	"listofrepairs": "Everything included in the Basic Tune-Up, plus wheel truing, pivot point lube, chain clean",
-	"and lube and frame clean and polish."
-
+	"listofrepairs": [
+		"Everything included in the Basic Tune-Up, plus wheel truing, pivot point lube, chain clean",
+		"and lube and frame clean and polish."
+]
  },
-
  {
 	"service": "Brake System Tune-Up",
 	"cost": 24.99,
 	"duration": ".5 hrs",
-	"listofrepairs": "Includes brake pad installation, brake inspection and adjustments and inspection of cables and housing."
-	
+	"listofrepairs": [
+		"Includes brake pad installation, brake inspection and adjustments and inspection of cables and housing."
+]	
  },
-
  {
 	"service": "Drivetrain Tune-Up",
 	"cost": 24.99,
 	"duration": ".5 hrs",
-	"listofrepairs": "Includes drive system inspection and adjustments, inspection of cables and housing and quick chain clean and lube."
+	"listofrepairs": [
+		"Includes drive system inspection and adjustments, inspection of cables and housing and quick chain clean and lube."
+ ]
  },
-
  {
 	"service": "Installs",
 	"cost": "varies",
 	"duration": "varies",
-	"listofrepairs": "Child carrier, cycle computer,fenders, kickstand, rear rack, saddle, training wheels, water bottle cage."
- },
-
+	"listofrepairs": [
+		"Child carrier, cycle computer,fenders, kickstand, rear rack, saddle, training wheels, water bottle cage."
+]
+},
  {
 	"service": "Professional Bike Assembly",
 	"cost": "FREE",
 	"duration": "1 hrs",
-	"listofrepairs": "Free with Bikes Purchased at Mountain Spoke. If not, assembly fee is $75.00."
- }
-
+	"listofrepairs": [
+		"Free with Bikes Purchased at Mountain Spoke. If not, assembly fee is $75.00."
+	]
+	}
 
  ]
 }
