@@ -8,7 +8,8 @@
 	"service": "Basic Tune-Up",
 	"cost": 39.99,
 	"duration": ".5 hrs",
-	"listofrepairs": "Includes brake inspection and adjustments, derailleur inspection and adjustments, tire inspection and inflation, safety check of all bolts and wipe down of frame."
+	"listofrepairs": "Includes brake inspection and adjustments, derailleur inspection and adjustments,",
+	"tire inspection and inflation, safety check of all bolts and wipe down of frame."
  },
 
  {
@@ -16,7 +17,8 @@
 	"service": "Premium Tune-Up",
 	"cost": 69.99,
 	"duration": ".75 hrs",
-	"listofrepairs": "Everything included in the Basic Tune-Up, plus wheel truing, pivot point lube, chain clean and lube and frame clean and polish."
+	"listofrepairs": "Everything included in the Basic Tune-Up, plus wheel truing, pivot point lube, chain clean",
+	"and lube and frame clean and polish."
 
  },
 
