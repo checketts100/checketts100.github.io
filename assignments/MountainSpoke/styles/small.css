@@ -185,3 +185,13 @@ footer>p {} /* This structure refers to p elements that are direct children of t
 		max-height:30vw;
 		width: auto;
 	}
+	
+	
+/*jQUERY IMAGE SLIDER*/	
+	.slider {
+	position: relative;
+}
+
+	.slider > div {
+	position: absolute;
+}
