@@ -36,6 +36,12 @@ main figure img { width: 100% }
 
 section {}
 
+/*PICTURE FORMAT FOR THE WEBSITE*/
+	.indexpics:hover {box-shadow: 5px 5px 10px gray;}
+	
+/*GRID FOR PICTURES IN EVENT PAGE*/
+	.grid img:hover {box-shadow: 5px 5px 10px gray;}
+
 
 /* LOGO AND HEADER INFORMATION*/
 header{
